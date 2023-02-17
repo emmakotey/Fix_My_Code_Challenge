@@ -1,8 +1,8 @@
-i#!/usr/bin/node
+#!/usr/bin/node
 /*
-    This code will print character #
+    Print a square with the character #
     
-    The size of the squre forms the first argument 
+    The size of the square must be the first argument 
     of the program.
 */
 
@@ -22,4 +22,3 @@ for (let i = 0 ; i < size ; i ++) {
     }
     process.stdout.write("\n");
 }
-
